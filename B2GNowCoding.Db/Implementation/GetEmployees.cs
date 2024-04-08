@@ -14,5 +14,10 @@ namespace B2GNowCoding.Db.Implementation
         {
             return _dbContext.Employee.ToList();
         }
+
+        public IEnumerable<Employee> GetEmployeeBySearch(string search)
+        {
+            return _dbContext.Employee.Where(e=>e.EmployeeNumber == search).ToList();
+        }
     }
 }

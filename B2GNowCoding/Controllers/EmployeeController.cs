@@ -18,11 +18,11 @@ namespace B2GNowCoding.Controllers
             var response = await _mediator.Send(new GetEmployeesQuery());
             return response;
         }
-        //[HttpGet]
-        //public async Task<IEnumerable<EmployeesResponse>> GetEmployeesByPhoneNumber(string search)
-        //{
-        //    var response = await _mediator.Send(new GetEmployeesQuery());
-        //    return response;
-        //}
+        [HttpGet]
+        public async Task<EmployeesSearchResponse> GetEmployeesByPhoneNumber(string search)
+        {
+            var response = await _mediator.Send(new GetEmployeesSearchQuery() { Search = search});
+            return response;
+        }
     }
 }
