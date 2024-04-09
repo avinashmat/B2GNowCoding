@@ -18,7 +18,7 @@ namespace B2GNowCoding.Controllers
             var response = await _mediator.Send(new GetEmployeesQuery());
             return response;
         }
-        [HttpGet]
+        [HttpGet("search")]
         public async Task<EmployeesSearchResponse> GetEmployeesByPhoneNumber(string search)
         {
             var response = await _mediator.Send(new GetEmployeesSearchQuery() { Search = search});
