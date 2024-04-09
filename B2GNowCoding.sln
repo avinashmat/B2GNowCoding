@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2GNowCoding.Core", "B2GNow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2GNowCoding.Db", "B2GNowCoding.Db\B2GNowCoding.Db.csproj", "{2C933C93-61F7-4377-BB87-7CC639FEAD9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2GNowCoding.Tests", "B2GNowCoding.Tests\B2GNowCoding.Tests.csproj", "{6961DB6E-9451-4044-90D3-307557425C24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2C933C93-61F7-4377-BB87-7CC639FEAD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C933C93-61F7-4377-BB87-7CC639FEAD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C933C93-61F7-4377-BB87-7CC639FEAD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6961DB6E-9451-4044-90D3-307557425C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6961DB6E-9451-4044-90D3-307557425C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6961DB6E-9451-4044-90D3-307557425C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6961DB6E-9451-4044-90D3-307557425C24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
